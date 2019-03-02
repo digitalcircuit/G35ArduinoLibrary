@@ -1,3 +1,12 @@
+**Note: This is a modified fork that contains some tweaks for use with the
+[Actinic Arduino firmware](https://github.com/digitalcircuit/ActinicArduino)
+for the
+[Actinic lighting controller](https://github.com/digitalcircuit/actinic).
+I suggest looking at the
+[original G35Arduino repository](https://github.com/sowbug/G35Arduino), too.**
+
+*Updates here may be force-pushed to the `master` branch.*
+
 Introduction
 ============
 
