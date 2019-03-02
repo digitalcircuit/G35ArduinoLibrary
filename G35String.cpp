@@ -16,8 +16,8 @@
 #define MHZ_16 (1)  // standard Arduino/Teensy
 
 #if MHZ_16
-#define DELAYLONG 17    // should be ~ 20uS long
-#define DELAYSHORT 7   // should be ~ 10uS long
+#define DELAYLONG 8    // should be ~ 20uS long
+#define DELAYSHORT 4   // should be ~ 10uS long
 #else  // 20MHz
 #define DELAYLONG 25    // should be ~ 20uS long
 #define DELAYSHORT 11   // should be ~ 10uS long
