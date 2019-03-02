@@ -117,7 +117,8 @@ void G35String::enumerate(bool forward) {
   uint8_t bulb = forward ? 0 : light_count_ - 1;
   int8_t delta = forward ? 1 : -1;
   while (count--) {
-    set_color(bulb, MAX_INTENSITY, COLOR_RED);
+    // Use '0' in place of MAX_INTENSITY to avoid bright flickering
+    set_color(bulb, 0, COLOR_RED);
     bulb += delta;
   }
 }
